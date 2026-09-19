@@ -32,6 +32,7 @@ dependencies {
 	testCompileOnly("org.projectlombok:lombok")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	testAnnotationProcessor("org.projectlombok:lombok")
+	implementation("com.github.gavlyukovskiy:p6spy-spring-boot-starter:2.0.1")
 }
 
 tasks.withType<Test> {
