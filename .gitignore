@@ -38,3 +38,6 @@ out/
 
 ### devtools ###
 db_dev.*
+
+### OS ###
+.DS_Store
